@@ -1,56 +1,38 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const pageTitle = "About Me";
+const pageTitle = "egoising";
 
-const identity = {
-  firstName: "Halcy",
-  country: "Japan",
-  occupation: "Software Dev",
-  hobbies: ["writing", "mixing cocktails", "baseball"],
-};
+const musics = ["shteppi", "machineplus", "femtanyl", "deathbrain", "pet shimmers", "living hour"];
+const authors = ["deleuze", "pynchon", "alison rumfitt", "yelena moskovich", "hiroko oyamada", "judith butler"];
+const things = ["baseball", "poststructuralism", "wikipedia", "cinnamon", "yuri", "jerma", "craft cocktails"];
 
-const skills = ["HTML", "CSS", "JavaScript", "C#/.Net", "Astro", "Writing Docs"];
-
-const happy = true;
-const finished = true;
-const goal = 3;
-
-const skillColor = "crimson";
-const fontWeight = "bold";
-const textCase = "uppercase";
+const listItemColour = "purple";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<style is:global define:vars={{skillColor, fontWeight, textCase}}>
-		h1 {
-			color: purple;
-			font-size: 4rem;
-		}
-		.skill {
-			color: var(--skillColor);
-			font-weight: var(--fontWeight);
-			text-transform: var(--textCase);
+	<style is:global define:vars={{listItemColour}}>
+		.listItem {
+			color: var(--listItemColour);
 		}
 	</style>
-	<p>i'm hot af fr</p>
-
-	<p>Here are a few facts about me:</p>
+	<p>halcy(on):</p>
 	<ul>
-		<li>My name is {identity.firstName}.</li>
-		<li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-		{identity.hobbies.length >= 2 &&
-			<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-		}
+		<li>lives in japan. it's got its ups and downs</li>
+		<li>wants to write something. she reads too much to not at least try</li>
+		<li>used to make music. in a band. she plays the drums. can she still say she plays the drums if she hasn't for a couple years now?</li>
+		<li>refuses to use capital letters -- they're a capital-ist tool for the upper case</li>
 	</ul>
-	<p>My skills are:</p>
+	<p>music that's good:</p>
 	<ul>
-	  {skills.map((skill) => <li class="skill">{skill}</li>)}
+	  {musics.map((music) => <li class="listItem">{music}</li>)}
 	</ul>
-
-	{happy && <p>I am happy to be learning Astro!</p>}
-
-	{finished && <p>I finished this tutorial!</p>}
-
-	{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+	<p>authors who're good:</p>
+	<ul>
+	  {authors.map((author) => <li class="listItem">{author}</li>)}
+	</ul>
+	<p>other assorted things that're good:</p>
+	<ul>
+	  {things.map((thing) => <li class="listItem">{thing}</li>)}
+	</ul>
 </BaseLayout>

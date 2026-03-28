@@ -1,25 +1,31 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+title: 'post one'
+pubDate: 2026-03-28
+description: 'pretty much just a placeholder at this point'
+author: 'halcy'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["blogging", "placeholder"]
 ---
-Published on: 2022-07-01
+yo how good is markdown?
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+## things that'll probably show up on this internet website
 
-## What I've accomplished
+1. **writing**: as in fiction. stories, maybe drafts for novels
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+2. **writing**: as in non-fiction. reviews of stuff, maybe some venting into the cybervoid
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+3. **lists**: freaking how good are lists huh?
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+4. **code**: probably less like the `example code` kind, and probably more like the app you can play with kind
 
-## What's next
+## to-do
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+need to customise the css of the site, as well as the layout page-wise
+
+then once it's at an mvp kinda state, i gotta populate the content. upload some stuff
+
+probably then share it to friends. maybe try to make friends via indieweb
+
+and then just fill with coding and writing. got an idea for a music-rhizome which would be fun

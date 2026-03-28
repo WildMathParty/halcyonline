@@ -1,11 +1,11 @@
 ---
-title: My Fourth Blog Post
-author: Astro Learner
-description: "This post will show up on its own!"
+title: fourth blog
+author: halcy
+description: "will probably have writing here instead"
 image:
-    url: "https://docs.astro.build/default-og-image.png"
-    alt: "The word astro against an illustration of planets and stars."
-pubDate: 2022-08-08
-tags: ["astro", "successes"]
+    url: "https://docs.astro.build/assets/arc.webp"
+    alt: "The Astro logo on a dark background with a purple gradient arc."
+pubDate: 2026-03-28
+tags: ["blogging", "placeholder", "sequel"]
 ---
-This post should show up with my other blog posts, because `import.meta.glob()` is returning a list of all my posts in order to create my list.
+... pretty sick tumbleweed huh?

@@ -1,11 +1,11 @@
 ---
-title: My Third Blog Post
-author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
+title: third blog
+author: halcy
+description: "still also now just a placeholder for now"
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+    url: "https://docs.astro.build/assets/arc.webp"
+    alt: "The Astro logo on a dark background with a purple gradient arc."
+pubDate: 2026-03-28
+tags: ["blogging", "placeholder", "sequel"]
 ---
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+oh my fluff it's a [link!](https://static.wikia.nocookie.net/sans-nagito/images/3/3f/Jerma_meatgrinder.webp/revision/latest?cb=20230520080240)
