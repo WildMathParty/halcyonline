@@ -1,0 +1,44 @@
+---
+
+// TODO: Probably don't need an X button in the panel?, the open button in the menu can switch -> what about screen size when panel covers button
+// 		 Generate the list of themes in the panel
+// 		 Hook up each theme button to change the actual theme (plus hover and colors, if performant)
+// 		 Mobile layout -> slide to cover whole screen, exit button on top
+
+---
+<button aria-roledescription="open" class="cursor-pointer" id="toggleButton">
+	open
+</button>
+
+<div id="slidingPanel" class="w-0 h-full fixed z-1 top-0 left-0 overflow-x-hidden duration-500 bg-gray-300">
+	<div class="panel-frame flex grow flex-col gap-4 px-10 py-1 max-w-full">
+		<button aria-roledescription="close" class="cursor-pointer rounded-full" id="panelClose">&times;</button>
+		<slot />
+	</div>
+</div>
+
+<script is:inline>
+	var isPanelOpen = false;
+	const slidingPanel = document.getElementById("slidingPanel");
+	const toggleButton = document.getElementById("toggleButton");
+
+	const openPanel = () => {
+		slidingPanel.style.width = "250px";
+		toggleButton.textContent = "close";
+		isPanelOpen = true;
+	}
+
+	const closePanel = () => {
+		slidingPanel.style.width = "0";
+		toggleButton.textContent = "open";
+		isPanelOpen = false;
+	}
+
+	toggleButton?.addEventListener("click", () => {
+		isPanelOpen ? closePanel() : openPanel();
+	});
+
+	document.getElementById("panelClose")?.addEventListener("click", () => {
+		closePanel();
+	});
+</script>
