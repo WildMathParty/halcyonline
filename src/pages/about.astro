@@ -6,14 +6,12 @@ const pageTitle = "egoising";
 const musics = ["shteppi", "machineplus", "femtanyl", "deathbrain", "pet shimmers", "living hour"];
 const authors = ["deleuze", "pynchon", "alison rumfitt", "yelena moskovich", "hiroko oyamada", "judith butler"];
 const things = ["baseball", "poststructuralism", "wikipedia", "cinnamon", "yuri", "jerma", "craft cocktails"];
-
-const listItemColour = "purple";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<style is:global define:vars={{listItemColour}}>
+	<style is:global>
 		.listItem {
-			color: var(--listItemColour);
+			color: var(--accent-2);
 		}
 	</style>
 	<p>halcy(on):</p>

@@ -1,44 +1,108 @@
 ---
-
-// TODO: Probably don't need an X button in the panel?, the open button in the menu can switch -> what about screen size when panel covers button
-// 		 Generate the list of themes in the panel
-// 		 Hook up each theme button to change the actual theme (plus hover and colors, if performant)
-// 		 Mobile layout -> slide to cover whole screen, exit button on top
-
+import themeList from '../generated/theme-list.json'
 ---
-<button aria-roledescription="open" class="cursor-pointer" id="toggleButton">
-	open
+
+<!-- Palette icon — opens the theme picker panel -->
+<button
+  id="toggleButton"
+  aria-label="Choose theme"
+  title="Choose theme"
+  class="cursor-pointer border-0 bg-transparent p-1"
+  style="color: var(--accent)"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/>
+    <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/>
+    <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/>
+    <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/>
+    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+  </svg>
 </button>
 
-<div id="slidingPanel" class="w-0 h-full fixed z-1 top-0 left-0 overflow-x-hidden duration-500 bg-gray-300">
-	<div class="panel-frame flex grow flex-col gap-4 px-10 py-1 max-w-full">
-		<button aria-roledescription="close" class="cursor-pointer rounded-full" id="panelClose">&times;</button>
-		<slot />
-	</div>
+<!-- Sliding panel — fixed left edge, theme-coloured -->
+<div
+  id="slidingPanel"
+  style="width: 0; background: var(--bg); border-right: 1px solid var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)))"
+  class="h-full fixed z-10 top-0 left-0 overflow-x-hidden duration-500"
+>
+  <div class="flex flex-col gap-3 px-4 py-3" style="min-width: 230px">
+
+    <!-- Panel header row -->
+    <div class="flex items-center justify-between">
+      <span style="color: var(--muted); font-family: monospace; font-size: 0.8rem">// themes</span>
+      <button
+        id="panelClose"
+        aria-label="Close panel"
+        class="cursor-pointer border-0 bg-transparent p-1"
+        style="color: var(--muted)"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Scrollable theme list -->
+    <ul class="list-none m-0 p-0 flex flex-col gap-1 overflow-y-auto" style="max-height: calc(100vh - 60px)">
+      {themeList.map(({ name, bg, swatch }) => (
+        <li>
+          <button
+            class="theme-row w-full flex items-center gap-2 px-2 py-2 rounded cursor-pointer border text-left font-mono text-xs"
+            data-theme-name={name}
+            style={`background: ${bg}; border-color: color-mix(in srgb, ${swatch[0]} 30%, ${bg})`}
+          >
+            {swatch.map((color) => (
+              <span
+                class="inline-block w-3 h-3 rounded-full flex-shrink-0"
+                style={`background: ${color}`}
+              />
+            ))}
+            <span style={`color: ${swatch[0]}`}>{name}</span>
+          </button>
+        </li>
+      ))}
+    </ul>
+
+  </div>
 </div>
 
 <script is:inline>
-	var isPanelOpen = false;
-	const slidingPanel = document.getElementById("slidingPanel");
-	const toggleButton = document.getElementById("toggleButton");
+  const DEFAULT_THEME = 'synthwave-84'
+  const panel = document.getElementById('slidingPanel')
+  const toggleBtn = document.getElementById('toggleButton')
+  const closeBtn = document.getElementById('panelClose')
+  let isOpen = false
 
-	const openPanel = () => {
-		slidingPanel.style.width = "250px";
-		toggleButton.textContent = "close";
-		isPanelOpen = true;
-	}
+  function markActive(currentTheme) {
+    document.querySelectorAll('[data-theme-name]').forEach(function(btn) {
+      var active = btn.dataset.themeName === currentTheme
+      btn.style.outline = active ? '2px solid var(--accent)' : 'none'
+      btn.style.outlineOffset = active ? '1px' : '0'
+    })
+  }
 
-	const closePanel = () => {
-		slidingPanel.style.width = "0";
-		toggleButton.textContent = "open";
-		isPanelOpen = false;
-	}
+  function openPanel() {
+    panel.style.width = '240px'
+    isOpen = true
+    markActive(localStorage.getItem('theme') || DEFAULT_THEME)
+  }
 
-	toggleButton?.addEventListener("click", () => {
-		isPanelOpen ? closePanel() : openPanel();
-	});
+  function closePanel() {
+    panel.style.width = '0'
+    isOpen = false
+  }
 
-	document.getElementById("panelClose")?.addEventListener("click", () => {
-		closePanel();
-	});
+  toggleBtn.addEventListener('click', function() { isOpen ? closePanel() : openPanel() })
+  closeBtn.addEventListener('click', closePanel)
+
+  document.querySelectorAll('[data-theme-name]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var name = btn.dataset.themeName
+      document.documentElement.setAttribute('data-theme', name)
+      localStorage.setItem('theme', name)
+      markActive(name)
+      closePanel()
+    })
+  })
 </script>

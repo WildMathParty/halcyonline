@@ -1,25 +1,15 @@
 ---
-import Navigation from './Navigation.astro';
-import Menu from './Menu.astro';
-import ThemeIcon from './ThemeIcon.astro';
-import SlidingPanel from './SlidingPanel.astro';
+import Navigation from './Navigation.astro'
+import Menu from './Menu.astro'
+import SlidingPanel from './SlidingPanel.astro'
 ---
 
 <header>
-	<nav>
-		<div>
-			<SlidingPanel>
-				<ThemeIcon />
-			</SlidingPanel>
-			<Menu />
-		</div>
-		<Navigation />
-	</nav>
+  <nav>
+    <div class="flex justify-between items-center">
+      <SlidingPanel />
+      <Menu />
+    </div>
+    <Navigation />
+  </nav>
 </header>
-
-<style>
-	div {
-		display: flex;
-		justify-content: space-between;
-	}
-</style>
