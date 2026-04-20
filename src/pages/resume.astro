@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "curriculum vitae";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<p>
+		I've been in software development professionally for over three years, 
+		and graduated with a degree in both computer science and product design<br/>
+		<br/>
+		Software development has always been a passion of mine - I find it the perfect intersection 
+		between logical thinking and creative flair, as well as having a social element among team members 
+		and with clients that really attracts me<br/>
+		<br/>
+		I'm originally from New Zealand, but have been travelling to gain new experiences and broaden my skills.
+		I've recently spent a year in Japan, which was truly amazing, and I'm now looking to explore Canada and live in Toronto
+		<br/>
+	</p>
+	<hr class="mt-5 mb-5"/>
+	<h2>work history</h2>
+	<ul>
+		<li>
+			<p>Associate developer</p>
+			<p class="ml-5" style="color: var(--accent)">>EDMI  2022-2025</p>
+			<p>Fullstack development for a suite of SaaS IoT tools in the utilities industry.</p>
+		</li>
+		<br/>
+		<li>
+			<p>QA Engineer</p>
+			<p class="ml-5" style="color: var(--accent)">>Freelance  2026-current</p>
+			<p>Executed testing strategies on a variety of software applications, and preparing reports to meet QA standards</p>
+		</li>
+	</ul>
+	<hr class="mt-5 mb-5"/>
+	<h2>skills</h2>
+	<p>C#/.NET, Typescript, Angular, Azure, MongoDB, PostgreSQL, Redis, Xamarin, MAUI, ElasticSearch, Java</p>
+</BaseLayout>
