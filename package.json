@@ -13,10 +13,13 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
+    "@astrojs/svelte": "^8.0.5",
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
     "@tailwindcss/vite": "^4.2.2",
     "astro": "^6.1.1",
-    "tailwindcss": "^4.2.2"
+    "svelte": "^5.55.4",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "shiki": "^4.0.2"

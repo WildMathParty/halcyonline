@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WeatherWidget from '../components/WeatherWidget.svelte';
+
+const pageTitle = "weather app";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <WeatherWidget client:load />
+</BaseLayout>

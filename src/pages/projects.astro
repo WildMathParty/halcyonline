@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "projects";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<h2>halcyonline</h2>
+	<p>this website. try changing the colour theme with the palette menu, if you haven't already :)<br/>
+	designed to be lightweight, fast-loading, and a way to play around with little coding projects and host my writing.
+	so used the astro javascript framework, plus html/css with tailwind</p>
+	<hr class="mt-5 mb-5"/>
+	<h2><a href=/weatherApp>weather app</a></h2>
+	<p>search a city, get the weather. real simple.<br/>
+	built using claude as a way to test the superpowers addon. uses astro, svelte, html/css, calls open-mateo api</p>
+</BaseLayout>
