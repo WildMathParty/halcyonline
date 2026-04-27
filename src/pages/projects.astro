@@ -1,16 +1,35 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "projects";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+	<h2 style="text-decoration: underline;">
+		<a href="/bookshelf">bookshelf</a>
+	</h2>
+	<p>
+		a collection of books i've read. you can sort, filter by tags, and click
+		on any book to see more details. uses the current site colour theme<br
+		/>
+		built using astro and svelte
+	</p>
+	<hr class="mt-5 mb-5" />
+	<h2 style="text-decoration: underline;">
+		<a href="/weatherApp">weather app</a>
+	</h2>
+	<p>
+		search a city, get the weather. real simple.<br />
+		built using claude as a way to test the superpowers addon. uses astro, svelte,
+		html/css, calls open-mateo api
+	</p>
+	<hr class="mt-5 mb-5" />
 	<h2>halcyonline</h2>
-	<p>this website. try changing the colour theme with the palette menu, if you haven't already :)<br/>
-	designed to be lightweight, fast-loading, and a way to play around with little coding projects and host my writing.
-	so used the astro javascript framework, plus html/css with tailwind</p>
-	<hr class="mt-5 mb-5"/>
-	<h2><a href=/weatherApp>weather app</a></h2>
-	<p>search a city, get the weather. real simple.<br/>
-	built using claude as a way to test the superpowers addon. uses astro, svelte, html/css, calls open-mateo api</p>
+	<p>
+		this website. try changing the colour theme with the palette menu, if
+		you haven't already :)<br />
+		designed to be lightweight, fast-loading, and a way to play around with little
+		coding projects and host my writing. so used the astro javascript framework,
+		plus html/css with tailwind
+	</p>
 </BaseLayout>

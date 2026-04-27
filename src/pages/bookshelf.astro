@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BookshelfComponent from "../components/Bookshelf.svelte";
+import { getCollection } from "astro:content";
+
+const books = await getCollection("books");
+---
+
+<BaseLayout pageTitle="bookshelf">
+  <div class="page-header mt-8 px-4 text-center">
+    <p class="mt-4 text-lg max-w-2xl mx-auto">
+      a collection of books i've read. you can sort, filter by tags, and click
+      on any book to see more details.
+    </p>
+  </div>
+
+  <BookshelfComponent books={books} client:load />
+</BaseLayout>

@@ -1,0 +1,1749 @@
+[
+  {
+    "id": "1",
+    "title": "Words of Radiance",
+    "author": "Brandon Sanderson",
+    "pageCount": 1087,
+    "publishDate": "2014-03-04T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "The Bands of Mourning",
+    "author": "Brandon Sanderson",
+    "pageCount": 448,
+    "publishDate": "2016-01-26T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "The Well of Ascension",
+    "author": "Brandon Sanderson",
+    "pageCount": 590,
+    "publishDate": "2007-08-21T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "The Final Empire",
+    "author": "Brandon Sanderson",
+    "pageCount": 541,
+    "publishDate": "2006-07-25T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Arcanum Unbounded",
+    "author": "Brandon Sanderson",
+    "pageCount": 672,
+    "publishDate": "2016-11-22T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Elantris",
+    "author": "Brandon Sanderson",
+    "pageCount": 638,
+    "publishDate": "2006-05-30T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Oathbringer",
+    "author": "Brandon Sanderson",
+    "pageCount": 1243,
+    "publishDate": "2017-11-14T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Warbreaker",
+    "author": "Brandon Sanderson",
+    "pageCount": 592,
+    "publishDate": "2009-06-09T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "The Alloy of Law",
+    "author": "Brandon Sanderson",
+    "pageCount": 332,
+    "publishDate": "2011-11-08T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Shadows of Self",
+    "author": "Brandon Sanderson",
+    "pageCount": 383,
+    "publishDate": "2015-10-06T00:00:00.000Z",
+    "readDateStart": "2018-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "The Hunt for Red October",
+    "author": "Tom Clancy",
+    "pageCount": 432,
+    "publishDate": "1999-10-15T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2019-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "12",
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "pageCount": 1007,
+    "publishDate": "2010-08-31T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "The Little Drummer Girl",
+    "author": "John Le Carré",
+    "pageCount": 659,
+    "publishDate": "2000-04-01T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": [
+      "Owned"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "V.",
+    "author": "Thomas Pynchon",
+    "pageCount": 640,
+    "publishDate": "2001-01-02T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "pageCount": 63,
+    "publishDate": "2009-10-04T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": []
+  },
+  {
+    "id": "16",
+    "title": "Seveneves",
+    "author": "Neal Stephenson",
+    "pageCount": 880,
+    "publishDate": "2015-05-19T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": []
+  },
+  {
+    "id": "17",
+    "title": "The Hero of Ages",
+    "author": "Brandon Sanderson",
+    "pageCount": 572,
+    "publishDate": "2008-10-14T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "pageCount": 201,
+    "publishDate": "1972-03-01T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": []
+  },
+  {
+    "id": "19",
+    "title": "The Wasteland",
+    "author": "T. S. Eliot",
+    "pageCount": 36,
+    "publishDate": "1922-10-16T00:00:00.000Z",
+    "readDateStart": "2019-01-01T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2020-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "20",
+    "title": "Who Rules the World?",
+    "author": "Noam Chomsky",
+    "pageCount": 320,
+    "publishDate": "2016-05-10T00:00:00.000Z",
+    "readDateStart": "2020-01-01T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2020-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "21",
+    "title": "The Crying of Lot 49",
+    "author": "Thomas Pynchon",
+    "pageCount": 160,
+    "publishDate": "1990-02-28T00:00:00.000Z",
+    "readDateStart": "2020-01-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned",
+      "Bangers"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Signs and Symbols",
+    "author": "Vladimir Nabokov",
+    "pageCount": 16,
+    "publishDate": "1948-05-15T00:00:00.000Z",
+    "readDateStart": "2020-01-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Bangers"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Gravity's Rainbow",
+    "author": "Thomas Pynchon",
+    "pageCount": 784,
+    "publishDate": "2006-10-31T00:00:00.000Z",
+    "readDateStart": "2020-01-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned",
+      "Bangers"
+    ],
+    "readDateFinish": "2021-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "24",
+    "title": "Flatland",
+    "author": "Edwin A. Abbott",
+    "pageCount": 96,
+    "publishDate": "1992-09-21T00:00:00.000Z",
+    "readDateStart": "2020-01-01T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2020-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "25",
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "pageCount": 288,
+    "publishDate": "1999-01-12T00:00:00.000Z",
+    "readDateStart": "2021-01-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "26",
+    "title": "The Vane Sisters",
+    "author": "Vladimir Nabokov",
+    "pageCount": 16,
+    "publishDate": "1951-03-01T00:00:00.000Z",
+    "readDateStart": "2021-01-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-04-13T00:00:00.000Z"
+  },
+  {
+    "id": "27",
+    "title": "The Waking Fire",
+    "author": "Anthony Ryan",
+    "pageCount": 592,
+    "publishDate": "2016-07-07T00:00:00.000Z",
+    "readDateStart": "2021-01-01T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-02-01T00:00:00.000Z"
+  },
+  {
+    "id": "28",
+    "title": "Red Mars",
+    "author": "Kim Stanley Robinson",
+    "pageCount": 592,
+    "publishDate": "1993-10-01T00:00:00.000Z",
+    "readDateStart": "2021-04-03T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-04-15T00:00:00.000Z"
+  },
+  {
+    "id": "29",
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "pageCount": 256,
+    "publishDate": "2006-09-26T00:00:00.000Z",
+    "readDateStart": "2021-04-14T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-04-19T00:00:00.000Z"
+  },
+  {
+    "id": "30",
+    "title": "Dawnshard",
+    "author": "Brandon Sanderson",
+    "pageCount": 208,
+    "publishDate": "2020-11-10T00:00:00.000Z",
+    "readDateStart": "2021-04-20T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ],
+    "readDateFinish": "2021-04-25T00:00:00.000Z"
+  },
+  {
+    "id": "31",
+    "title": "Rhythm of War",
+    "author": "Brandon Sanderson",
+    "pageCount": 1088,
+    "publishDate": "2020-11-17T00:00:00.000Z",
+    "readDateStart": "2021-04-24T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ],
+    "readDateFinish": "2021-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "32",
+    "title": "The Picture of Dorian Grey",
+    "author": "Oscar Wilde",
+    "pageCount": 254,
+    "publishDate": "2011-01-01T00:00:00.000Z",
+    "readDateStart": "2021-05-27T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-06-08T00:00:00.000Z"
+  },
+  {
+    "id": "33",
+    "title": "Ubik",
+    "author": "Philip K. Dick",
+    "pageCount": 288,
+    "publishDate": "2006-05-01T00:00:00.000Z",
+    "readDateStart": "2021-06-07T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-06-16T00:00:00.000Z"
+  },
+  {
+    "id": "34",
+    "title": "Siddhartha",
+    "author": "Hermann Hesse",
+    "pageCount": 152,
+    "publishDate": "1981-12-01T00:00:00.000Z",
+    "readDateStart": "2021-06-08T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-06-16T00:00:00.000Z"
+  },
+  {
+    "id": "35",
+    "title": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "pageCount": 705,
+    "publishDate": "2000-03-07T00:00:00.000Z",
+    "readDateStart": "2021-06-15T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "36",
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "pageCount": 188,
+    "publishDate": "2003-10-01T00:00:00.000Z",
+    "readDateStart": "2021-06-24T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-06-27T00:00:00.000Z"
+  },
+  {
+    "id": "37",
+    "title": "Postmodernist Fiction",
+    "author": "Brian McHale",
+    "pageCount": 264,
+    "publishDate": "1987-07-02T00:00:00.000Z",
+    "readDateStart": "2021-06-28T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2021-07-07T00:00:00.000Z"
+  },
+  {
+    "id": "38",
+    "title": "The Legion of Flame",
+    "author": "Anthony Ryan",
+    "pageCount": 576,
+    "publishDate": "2017-06-27T00:00:00.000Z",
+    "readDateStart": "2021-07-08T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-07-14T00:00:00.000Z"
+  },
+  {
+    "id": "39",
+    "title": "Mrs. Dalloway",
+    "author": "Virginia Woolf",
+    "pageCount": 194,
+    "publishDate": "2002-10-28T00:00:00.000Z",
+    "readDateStart": "2021-07-14T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-07-18T00:00:00.000Z"
+  },
+  {
+    "id": "40",
+    "title": "Slow Learner",
+    "author": "Thomas Pynchon",
+    "pageCount": 193,
+    "publishDate": "1995-02-16T00:00:00.000Z",
+    "readDateStart": "2021-07-19T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "41",
+    "title": "The Wind-Up Bird Chronicle",
+    "author": "Haruki Murakami",
+    "pageCount": 607,
+    "publishDate": "1997-01-01T00:00:00.000Z",
+    "readDateStart": "2021-07-24T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-08-16T00:00:00.000Z"
+  },
+  {
+    "id": "42",
+    "title": "The Passion According to G.H.",
+    "author": "Clarice Lispector",
+    "pageCount": 173,
+    "publishDate": "1988-09-15T00:00:00.000Z",
+    "readDateStart": "2021-08-08T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "43",
+    "title": "Death on the Nile",
+    "author": "Agatha Christie",
+    "pageCount": 214,
+    "publishDate": "1978-01-01T00:00:00.000Z",
+    "readDateStart": "2021-08-16T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "44",
+    "title": "Vineland",
+    "author": "Thomas Pynchon",
+    "pageCount": 480,
+    "publishDate": "1995-06-01T00:00:00.000Z",
+    "readDateStart": "2021-08-26T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2021-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "45",
+    "title": "Homage to Catalonia",
+    "author": "George Orwell",
+    "pageCount": 232,
+    "publishDate": "1951-12-31T00:00:00.000Z",
+    "readDateStart": "2021-09-24T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2021-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "46",
+    "title": "Gender Trouble",
+    "author": "Judith Butler",
+    "pageCount": 236,
+    "publishDate": "2006-01-01T00:00:00.000Z",
+    "readDateStart": "2021-09-30T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2021-10-19T00:00:00.000Z"
+  },
+  {
+    "id": "47",
+    "title": "Green Mars",
+    "author": "Kim Stanley Robinson",
+    "pageCount": 640,
+    "publishDate": "1995-05-01T00:00:00.000Z",
+    "readDateStart": "2021-10-20T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-11-06T00:00:00.000Z"
+  },
+  {
+    "id": "48",
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "pageCount": 255,
+    "publishDate": "2001-04-09T00:00:00.000Z",
+    "readDateStart": "2021-11-07T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-11-23T00:00:00.000Z"
+  },
+  {
+    "id": "49",
+    "title": "Literary Theory: A Very Short Introduction",
+    "author": "Jonathan Culler",
+    "pageCount": 184,
+    "publishDate": "2011-07-28T00:00:00.000Z",
+    "readDateStart": "2021-11-09T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2021-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "50",
+    "title": "Infinite Jest",
+    "author": "David Foster Wallace",
+    "pageCount": 1079,
+    "publishDate": "1998-01-01T00:00:00.000Z",
+    "readDateStart": "2021-11-28T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned"
+    ],
+    "readDateFinish": "2022-02-11T00:00:00.000Z"
+  },
+  {
+    "id": "51",
+    "title": "Glitch Feminism",
+    "author": "Legacy Russell",
+    "pageCount": 176,
+    "publishDate": "2020-09-29T00:00:00.000Z",
+    "readDateStart": "2021-12-20T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2021-12-20T00:00:00.000Z"
+  },
+  {
+    "id": "52",
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "pageCount": 288,
+    "publishDate": "2016-10-25T00:00:00.000Z",
+    "readDateStart": "2022-02-18T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "53",
+    "title": "Difference and Repetition",
+    "author": "Gilles Deleuze",
+    "pageCount": 350,
+    "publishDate": "1995-05-18T00:00:00.000Z",
+    "readDateStart": "2022-02-28T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2022-04-27T00:00:00.000Z"
+  },
+  {
+    "id": "54",
+    "title": "Lolita",
+    "author": "Vladimi Nabokov",
+    "pageCount": 544,
+    "publishDate": "2000-07-04T00:00:00.000Z",
+    "readDateStart": "2022-03-08T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-04-11T00:00:00.000Z"
+  },
+  {
+    "id": "55",
+    "title": "Motherless Brooklyn",
+    "author": "Jonathan Lethem",
+    "pageCount": 320,
+    "publishDate": "2014-08-07T00:00:00.000Z",
+    "readDateStart": "2022-04-13T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-04-15T00:00:00.000Z"
+  },
+  {
+    "id": "56",
+    "title": "The Brief Wondrous Life of Oscar Wao",
+    "author": "Junot Díaz",
+    "pageCount": 352,
+    "publishDate": "2007-09-06T00:00:00.000Z",
+    "readDateStart": "2022-04-16T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "57",
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "pageCount": 384,
+    "publishDate": "2022-02-17T00:00:00.000Z",
+    "readDateStart": "2022-04-23T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-05-01T00:00:00.000Z"
+  },
+  {
+    "id": "58",
+    "title": "Postmodernism, or, The Cultural Logic of Late Capitalism",
+    "author": "Fredric Jameson",
+    "pageCount": 438,
+    "publishDate": "1992-01-01T00:00:00.000Z",
+    "readDateStart": "2022-05-02T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "59",
+    "title": "Mumbo Jumbo",
+    "author": "Ishmael Reed",
+    "pageCount": 223,
+    "publishDate": "1996-06-11T00:00:00.000Z",
+    "readDateStart": "2022-05-03T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2022-05-08T00:00:00.000Z"
+  },
+  {
+    "id": "60",
+    "title": "Tell Me I'm Worthless",
+    "author": "Alison Rumfitt",
+    "pageCount": 276,
+    "publishDate": "2021-10-28T00:00:00.000Z",
+    "readDateStart": "2022-05-09T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2022-05-14T00:00:00.000Z"
+  },
+  {
+    "id": "61",
+    "title": "The Factory",
+    "author": "Hiroko Oyamada",
+    "pageCount": 128,
+    "publishDate": "2019-10-29T00:00:00.000Z",
+    "readDateStart": "2022-05-14T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2022-05-16T00:00:00.000Z"
+  },
+  {
+    "id": "62",
+    "title": "The Chain of Chance",
+    "author": "Stanisław Lem",
+    "pageCount": 192,
+    "publishDate": "1984-05-11T00:00:00.000Z",
+    "readDateStart": "2022-05-18T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "63",
+    "title": "Tiqqun #1",
+    "author": "Tiqqun Journal",
+    "pageCount": 167,
+    "publishDate": "2011-11-01T00:00:00.000Z",
+    "readDateStart": "2022-05-23T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-06-21T00:00:00.000Z"
+  },
+  {
+    "id": "64",
+    "title": "The Vineland Papers",
+    "author": "Geoffrey Green,Donald J. Greiner",
+    "pageCount": 191,
+    "publishDate": "1994-01-01T00:00:00.000Z",
+    "readDateStart": "2022-05-31T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-06-25T00:00:00.000Z"
+  },
+  {
+    "id": "65",
+    "title": "Labyrinths",
+    "author": "Jorge Luis Borges",
+    "pageCount": 287,
+    "publishDate": "1970-01-01T00:00:00.000Z",
+    "readDateStart": "2022-05-31T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2022-06-25T00:00:00.000Z"
+  },
+  {
+    "id": "66",
+    "title": "Of Grammatology",
+    "author": "Jacques Derrida",
+    "pageCount": 456,
+    "publishDate": "2013-10-17T00:00:00.000Z",
+    "readDateStart": "2022-06-27T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "67",
+    "title": "Mason & Dixon",
+    "author": "Thomas Pynchon",
+    "pageCount": 784,
+    "publishDate": "1998-01-01T00:00:00.000Z",
+    "readDateStart": "2022-06-28T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2022-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "68",
+    "title": "Transgender Marxism",
+    "author": "Jordy Rosenberg",
+    "pageCount": 256,
+    "publishDate": "2020-10-20T00:00:00.000Z",
+    "readDateStart": "2022-10-04T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "69",
+    "title": "Nova",
+    "author": "Samuel R. Delany",
+    "pageCount": 272,
+    "publishDate": "2002-06-11T00:00:00.000Z",
+    "readDateStart": "2022-10-10T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-10-19T00:00:00.000Z"
+  },
+  {
+    "id": "70",
+    "title": "Decolonizing Methodologies",
+    "author": "Linda Tuhiwai Smith",
+    "pageCount": 256,
+    "publishDate": "2016-03-15T00:00:00.000Z",
+    "readDateStart": "2022-10-14T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-10-26T00:00:00.000Z"
+  },
+  {
+    "id": "71",
+    "title": "A Door Behind A Door",
+    "author": "Yelena Moskovich",
+    "pageCount": 188,
+    "publishDate": "2021-05-18T00:00:00.000Z",
+    "readDateStart": "2022-10-21T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2022-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "72",
+    "title": "The Spy Who Came in from the Cold",
+    "author": "John Le Carré",
+    "pageCount": 229,
+    "publishDate": "2006-09-21T00:00:00.000Z",
+    "readDateStart": "2022-10-24T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2022-10-27T00:00:00.000Z"
+  },
+  {
+    "id": "73",
+    "title": "Dialectic of Enlightenment",
+    "author": "Theodor W. Adorno,Max Horkheimer",
+    "pageCount": 304,
+    "publishDate": "2007-03-13T00:00:00.000Z",
+    "readDateStart": "2022-10-27T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-12-02T00:00:00.000Z"
+  },
+  {
+    "id": "74",
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "pageCount": 209,
+    "publishDate": "1989-12-27T00:00:00.000Z",
+    "readDateStart": "2022-11-04T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2022-11-19T00:00:00.000Z"
+  },
+  {
+    "id": "75",
+    "title": "The Lost Metal",
+    "author": "Brandon Sanderson",
+    "pageCount": 464,
+    "publishDate": "2022-11-15T00:00:00.000Z",
+    "readDateStart": "2022-11-20T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ],
+    "readDateFinish": "2022-12-12T00:00:00.000Z"
+  },
+  {
+    "id": "76",
+    "title": "Ethics",
+    "author": "Baruch Spinoza",
+    "pageCount": 208,
+    "publishDate": "2005-07-26T00:00:00.000Z",
+    "readDateStart": "2022-12-04T00:00:00.000Z",
+    "tags": [
+      "Owned",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2022-12-19T00:00:00.000Z"
+  },
+  {
+    "id": "77",
+    "title": "White Noise",
+    "author": "Don DeLillo",
+    "pageCount": 336,
+    "publishDate": "2009-12-29T00:00:00.000Z",
+    "readDateStart": "2022-12-13T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2022-12-27T00:00:00.000Z"
+  },
+  {
+    "id": "78",
+    "title": "Madness and Civilization",
+    "author": "Michel Foucault",
+    "pageCount": 282,
+    "publishDate": "2001-05-17T00:00:00.000Z",
+    "readDateStart": "2022-12-21T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2023-01-24T00:00:00.000Z"
+  },
+  {
+    "id": "79",
+    "title": "The Prague Cemetery",
+    "author": "Umberto Eco",
+    "pageCount": 445,
+    "publishDate": "2011-11-08T00:00:00.000Z",
+    "readDateStart": "2022-12-27T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "80",
+    "title": "Nevada",
+    "author": "Imogen Binnie",
+    "pageCount": 262,
+    "publishDate": "2013-04-02T00:00:00.000Z",
+    "readDateStart": "2023-01-24T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2023-01-27T00:00:00.000Z"
+  },
+  {
+    "id": "81",
+    "title": "Cats Cradle",
+    "author": "Kurt Vonnegut",
+    "pageCount": 192,
+    "publishDate": "1999-09-07T00:00:00.000Z",
+    "readDateStart": "2023-01-28T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2023-02-07T00:00:00.000Z"
+  },
+  {
+    "id": "82",
+    "title": "The Body Keeps the Score",
+    "author": "Bessel Van der Kolk",
+    "pageCount": 443,
+    "publishDate": "2015-09-24T00:00:00.000Z",
+    "readDateStart": "2023-02-09T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2023-03-11T00:00:00.000Z"
+  },
+  {
+    "id": "83",
+    "title": "Notes From the Underground",
+    "author": "Fyodor Dostoevsky",
+    "pageCount": 160,
+    "publishDate": "2014-10-28T00:00:00.000Z",
+    "readDateStart": "2023-02-17T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-02-26T00:00:00.000Z"
+  },
+  {
+    "id": "84",
+    "title": "Illuminations",
+    "author": "Alan Moore",
+    "pageCount": 464,
+    "publishDate": "2022-10-11T00:00:00.000Z",
+    "readDateStart": "2023-02-28T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-03-22T00:00:00.000Z"
+  },
+  {
+    "id": "85",
+    "title": "Molloy, Malone Dies, The Unnamable",
+    "author": "Samuel Beckett",
+    "pageCount": 512,
+    "publishDate": "1997-09-16T00:00:00.000Z",
+    "readDateStart": "2023-03-25T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-04-13T00:00:00.000Z"
+  },
+  {
+    "id": "86",
+    "title": "The Savage Detectives",
+    "author": "Roberto Bolaño",
+    "pageCount": 577,
+    "publishDate": "2007-01-01T00:00:00.000Z",
+    "readDateStart": "2023-04-14T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "87",
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "pageCount": 240,
+    "publishDate": "2003-01-01T00:00:00.000Z",
+    "readDateStart": "2023-04-14T00:00:00.000Z",
+    "tags": [
+      "Owned",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2023-06-14T00:00:00.000Z"
+  },
+  {
+    "id": "88",
+    "title": "Pnin",
+    "author": "Vladimir Nabokov",
+    "pageCount": 208,
+    "publishDate": "1989-06-18T00:00:00.000Z",
+    "readDateStart": "2023-05-26T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-06-15T00:00:00.000Z"
+  },
+  {
+    "id": "89",
+    "title": "Do Androids Dream Of Electric Sheep?",
+    "author": "Philip K. Dick",
+    "pageCount": 244,
+    "publishDate": "1975-01-01T00:00:00.000Z",
+    "readDateStart": "2023-06-17T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-06-20T00:00:00.000Z"
+  },
+  {
+    "id": "90",
+    "title": "Autobiography of Red",
+    "author": "Anne Carson",
+    "pageCount": 160,
+    "publishDate": "2013-03-05T00:00:00.000Z",
+    "readDateStart": "2023-06-22T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-06-26T00:00:00.000Z"
+  },
+  {
+    "id": "91",
+    "title": "The Logic of Sense",
+    "author": "Gilles Deleuze",
+    "pageCount": 393,
+    "publishDate": "1993-06-10T00:00:00.000Z",
+    "readDateStart": "2023-06-24T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2023-08-05T00:00:00.000Z"
+  },
+  {
+    "id": "92",
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "pageCount": 152,
+    "publishDate": "1991-05-01T00:00:00.000Z",
+    "readDateStart": "2023-08-07T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-08-17T00:00:00.000Z"
+  },
+  {
+    "id": "93",
+    "title": "The Gold Bug Variations",
+    "author": "Richard Powers",
+    "pageCount": 688,
+    "publishDate": "2019-11-07T00:00:00.000Z",
+    "readDateStart": "2023-08-19T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2023-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "94",
+    "title": "Tress of the Emerald Sea",
+    "author": "Brandon Sanderson",
+    "pageCount": 384,
+    "publishDate": "2023-04-04T00:00:00.000Z",
+    "readDateStart": "2023-09-11T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ],
+    "readDateFinish": "2023-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "95",
+    "title": "Frontier",
+    "author": "Can Xue",
+    "pageCount": 361,
+    "publishDate": "2017-03-14T00:00:00.000Z",
+    "readDateStart": "2023-09-16T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-10-01T00:00:00.000Z"
+  },
+  {
+    "id": "96",
+    "title": "Blue Mars",
+    "author": "Kim Stanley Robinson",
+    "pageCount": 784,
+    "publishDate": "1997-06-02T00:00:00.000Z",
+    "readDateStart": "2023-10-04T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-10-19T00:00:00.000Z"
+  },
+  {
+    "id": "97",
+    "title": "A Safe Girl to Love",
+    "author": "Casey Plett",
+    "pageCount": 229,
+    "publishDate": "2014-05-01T00:00:00.000Z",
+    "readDateStart": "2023-10-21T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "98",
+    "title": "Bodies that Matter",
+    "author": "Judith Butler",
+    "pageCount": 219,
+    "publishDate": "2011-05-15T00:00:00.000Z",
+    "readDateStart": "2023-10-23T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2023-12-14T00:00:00.000Z"
+  },
+  {
+    "id": "99",
+    "title": "The Whale Rider",
+    "author": "Witi Ihimaera",
+    "pageCount": 182,
+    "publishDate": "2010-01-01T00:00:00.000Z",
+    "readDateStart": "2023-10-25T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-10-29T00:00:00.000Z"
+  },
+  {
+    "id": "100",
+    "title": "The Melancholy of Resistance",
+    "author": "László Krasznahorkai",
+    "pageCount": 195,
+    "publishDate": "2016-05-12T00:00:00.000Z",
+    "readDateStart": "2023-10-29T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Bangers"
+    ],
+    "readDateFinish": "2023-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "101",
+    "title": "Leaving the Atocha Station",
+    "author": "Ben Lerner",
+    "pageCount": 181,
+    "publishDate": "2011-08-23T00:00:00.000Z",
+    "readDateStart": "2023-12-16T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2023-12-20T00:00:00.000Z"
+  },
+  {
+    "id": "102",
+    "title": "Septology",
+    "author": "Jon Fosse",
+    "pageCount": 752,
+    "publishDate": "2022-10-01T00:00:00.000Z",
+    "readDateStart": "2023-12-30T00:00:00.000Z",
+    "tags": [
+      "Owned",
+      "Bangers"
+    ],
+    "readDateFinish": "2024-01-07T00:00:00.000Z"
+  },
+  {
+    "id": "103",
+    "title": "Cloud Atlas",
+    "author": "David Mitchell",
+    "pageCount": 528,
+    "publishDate": "2004-08-17T00:00:00.000Z",
+    "readDateStart": "2024-01-08T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2024-01-14T00:00:00.000Z"
+  },
+  {
+    "id": "104",
+    "title": "Against the Day",
+    "author": "Thomas Pynchon",
+    "pageCount": 1085,
+    "publishDate": "2006-12-01T00:00:00.000Z",
+    "readDateStart": "2024-01-15T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2024-03-12T00:00:00.000Z"
+  },
+  {
+    "id": "105",
+    "title": "The Question of Palestine",
+    "author": "Edward W. Said",
+    "pageCount": 320,
+    "publishDate": "2015-08-19T00:00:00.000Z",
+    "readDateStart": "2024-03-14T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2024-03-28T00:00:00.000Z"
+  },
+  {
+    "id": "106",
+    "title": "Yumi and the Nightmare Painter",
+    "author": "Brandon Sanderson",
+    "pageCount": 474,
+    "publishDate": "2023-07-01T00:00:00.000Z",
+    "readDateStart": "2024-03-18T00:00:00.000Z",
+    "tags": [
+      "Cosmere",
+      "Bangers"
+    ],
+    "readDateFinish": "2024-03-25T00:00:00.000Z"
+  },
+  {
+    "id": "107",
+    "title": "Writing and Difference",
+    "author": "Jacques Derrida",
+    "pageCount": 446,
+    "publishDate": "2002-05-18T00:00:00.000Z",
+    "readDateStart": "2024-03-29T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2024-06-11T00:00:00.000Z"
+  },
+  {
+    "id": "108",
+    "title": "A Personal Matter",
+    "author": "Kenzaburō Ōe",
+    "pageCount": 165,
+    "publishDate": "1995-01-01T00:00:00.000Z",
+    "readDateStart": "2024-04-01T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "109",
+    "title": "Lost in the Funhouse",
+    "author": "John Barth",
+    "pageCount": 201,
+    "publishDate": "1968-01-01T00:00:00.000Z",
+    "readDateStart": "2024-04-07T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-04-16T00:00:00.000Z"
+  },
+  {
+    "id": "110",
+    "title": "Mater 2-10",
+    "author": "Hwang Sok-yong",
+    "pageCount": 486,
+    "publishDate": "2023-05-11T00:00:00.000Z",
+    "readDateStart": "2024-04-16T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2024-05-02T00:00:00.000Z"
+  },
+  {
+    "id": "111",
+    "title": "2666",
+    "author": "Roberto Bolaño",
+    "pageCount": 912,
+    "publishDate": "2013-07-09T00:00:00.000Z",
+    "readDateStart": "2024-05-09T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned"
+    ],
+    "readDateFinish": "2024-05-31T00:00:00.000Z"
+  },
+  {
+    "id": "112",
+    "title": "The Fifth Wound",
+    "author": "Aurora Mattia",
+    "pageCount": 288,
+    "publishDate": "2022-11-08T00:00:00.000Z",
+    "readDateStart": "2024-06-03T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-06-11T00:00:00.000Z"
+  },
+  {
+    "id": "113",
+    "title": "Doppelganger",
+    "author": "Naomi Klein",
+    "pageCount": 281,
+    "publishDate": "2023-09-12T00:00:00.000Z",
+    "readDateStart": "2024-06-11T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2024-06-19T00:00:00.000Z"
+  },
+  {
+    "id": "114",
+    "title": "A Pelican Book: Hermeneutics",
+    "author": "John D Caputo",
+    "pageCount": 336,
+    "publishDate": "2018-02-27T00:00:00.000Z",
+    "readDateStart": "2024-06-25T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned",
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2024-07-25T00:00:00.000Z"
+  },
+  {
+    "id": "115",
+    "title": "Solenoid",
+    "author": "Mircea Cărtărescu",
+    "pageCount": 672,
+    "publishDate": "2022-10-25T00:00:00.000Z",
+    "readDateStart": "2024-06-28T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "116",
+    "title": "The System of Objects",
+    "author": "Jean Baudrillard",
+    "pageCount": 240,
+    "publishDate": "2020-04-07T00:00:00.000Z",
+    "readDateStart": "2024-08-26T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2024-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "117",
+    "title": "The Quiet American",
+    "author": "Graham Greene",
+    "pageCount": 208,
+    "publishDate": "2004-08-31T00:00:00.000Z",
+    "readDateStart": "2024-09-08T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "118",
+    "title": "A Visit from the Goon Squad",
+    "author": "Jennifer Egan",
+    "pageCount": 351,
+    "publishDate": "2011-07-01T00:00:00.000Z",
+    "readDateStart": "2024-09-25T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "119",
+    "title": "Orlando",
+    "author": "Virginia Woolf",
+    "pageCount": 352,
+    "publishDate": "2012-09-21T00:00:00.000Z",
+    "readDateStart": "2024-10-10T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2024-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "120",
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "pageCount": 272,
+    "publishDate": "2020-09-15T00:00:00.000Z",
+    "readDateStart": "2024-10-21T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-05-04T00:00:00.000Z"
+  },
+  {
+    "id": "121",
+    "title": "Inherent Vice",
+    "author": "Thomas Pynchon",
+    "pageCount": 431,
+    "publishDate": "2012-06-13T00:00:00.000Z",
+    "readDateStart": "2024-11-08T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2024-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "122",
+    "title": "Praiseworthy",
+    "author": "Alexis Wright",
+    "pageCount": 736,
+    "publishDate": "2023-04-01T00:00:00.000Z",
+    "readDateStart": "2024-11-24T00:00:00.000Z",
+    "tags": [
+      "Owned"
+    ],
+    "readDateFinish": "2025-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "123",
+    "title": "A Poetics of Postmodernism",
+    "author": "Linda Hutcheon",
+    "pageCount": 284,
+    "publishDate": "1988-05-12T00:00:00.000Z",
+    "readDateStart": "2024-12-02T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2025-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "124",
+    "title": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "pageCount": 647,
+    "publishDate": "2008-04-03T00:00:00.000Z",
+    "readDateStart": "2025-01-11T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned"
+    ],
+    "readDateFinish": "2025-02-02T00:00:00.000Z"
+  },
+  {
+    "id": "125",
+    "title": "Flights",
+    "author": "Olga Tokarczuk",
+    "pageCount": 410,
+    "publishDate": "2017-05-17T00:00:00.000Z",
+    "readDateStart": "2025-02-03T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2025-02-10T00:00:00.000Z"
+  },
+  {
+    "id": "126",
+    "title": "Underworld",
+    "author": "Don DeLillo",
+    "pageCount": 832,
+    "publishDate": "2007-11-01T00:00:00.000Z",
+    "readDateStart": "2025-02-11T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned"
+    ],
+    "readDateFinish": "2025-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "127",
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "pageCount": 448,
+    "publishDate": "2016-06-21T00:00:00.000Z",
+    "readDateStart": "2025-03-12T00:00:00.000Z",
+    "tags": [
+      "Owned"
+    ],
+    "readDateFinish": "2025-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "128",
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "pageCount": 453,
+    "publishDate": "2004-09-04T00:00:00.000Z",
+    "readDateStart": "2025-06-01T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Owned",
+      "Bangers"
+    ],
+    "readDateFinish": "2025-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "129",
+    "title": "The Sunlit Man",
+    "author": "Brandon Sanderson",
+    "pageCount": 400,
+    "publishDate": "2025-03-13T00:00:00.000Z",
+    "readDateStart": "2025-07-07T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ],
+    "readDateFinish": "2025-07-13T00:00:00.000Z"
+  },
+  {
+    "id": "130",
+    "title": "The King in Yellow",
+    "author": "Robert Chambers",
+    "pageCount": 106,
+    "publishDate": "2017-06-24T00:00:00.000Z",
+    "readDateStart": "2025-07-19T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "131",
+    "title": "The Universal Baseball Association",
+    "author": "Robert Coover",
+    "pageCount": 256,
+    "publishDate": "2011-11-01T00:00:00.000Z",
+    "readDateStart": "2025-07-28T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Bangers"
+    ],
+    "readDateFinish": "2025-08-04T00:00:00.000Z"
+  },
+  {
+    "id": "132",
+    "title": "Pedagogy of the Oppressed",
+    "author": "Paulo Freire",
+    "pageCount": 192,
+    "publishDate": "2014-08-18T00:00:00.000Z",
+    "readDateStart": "2025-08-01T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "id": "133",
+    "title": "The Hole",
+    "author": "Hiroko Oyamada",
+    "pageCount": 112,
+    "publishDate": "2020-10-06T00:00:00.000Z",
+    "readDateStart": "2025-08-06T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "134",
+    "title": "One Hundred Years Of Solitude",
+    "author": "Gabriel García Márquez",
+    "pageCount": 432,
+    "publishDate": "2000-08-01T00:00:00.000Z",
+    "readDateStart": "2025-08-10T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "135",
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "pageCount": 352,
+    "publishDate": "2016-08-11T00:00:00.000Z",
+    "readDateStart": "2025-09-03T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-09-12T00:00:00.000Z"
+  },
+  {
+    "id": "136",
+    "title": "The Dangers of Smoking in Bed",
+    "author": "Mariana Enriquez",
+    "pageCount": 208,
+    "publishDate": "2022-02-03T00:00:00.000Z",
+    "readDateStart": "2025-09-13T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-09-20T00:00:00.000Z"
+  },
+  {
+    "id": "137",
+    "title": "Anti-Oedipus",
+    "author": "Gilles Deleuze,Félix Guattari",
+    "pageCount": 178,
+    "publishDate": "1999-01-01T00:00:00.000Z",
+    "readDateStart": "2025-09-20T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "id": "138",
+    "title": "Anti-Oedipus",
+    "author": "Gilles Deleuze,Félix Guattari",
+    "pageCount": 432,
+    "publishDate": "2009-05-26T00:00:00.000Z",
+    "readDateStart": "2025-09-20T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "139",
+    "title": "Shadow Ticket",
+    "author": "Thomas Pynchon",
+    "pageCount": 304,
+    "publishDate": "2025-10-07T00:00:00.000Z",
+    "readDateStart": "2025-10-07T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2025-10-19T00:00:00.000Z"
+  },
+  {
+    "id": "140",
+    "title": "Wind and Truth",
+    "author": "Brandon Sanderson",
+    "pageCount": 1440,
+    "publishDate": "2025-11-06T00:00:00.000Z",
+    "readDateStart": "2025-11-17T00:00:00.000Z",
+    "tags": [
+      "Cosmere"
+    ],
+    "readDateFinish": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "141",
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "pageCount": 150,
+    "publishDate": "1986-12-01T00:00:00.000Z",
+    "readDateStart": "2025-12-17T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-12-20T00:00:00.000Z"
+  },
+  {
+    "id": "142",
+    "title": "Event Factory",
+    "author": "Renee Gladman",
+    "pageCount": 126,
+    "publishDate": "2010-11-01T00:00:00.000Z",
+    "readDateStart": "2025-12-22T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2025-12-24T00:00:00.000Z"
+  },
+  {
+    "id": "143",
+    "title": "Tinker, Tailor, Soldier, Spy",
+    "author": "John Le Carré",
+    "pageCount": 432,
+    "publishDate": "2017-01-01T00:00:00.000Z",
+    "readDateStart": "2025-12-27T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "144",
+    "title": "Satantango",
+    "author": "Laszlo Krasznahorkai",
+    "pageCount": 274,
+    "publishDate": "2012-02-07T00:00:00.000Z",
+    "readDateStart": "2026-01-05T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-01-18T00:00:00.000Z"
+  },
+  {
+    "id": "145",
+    "title": "Snow Country",
+    "author": "Yasunari Kawabata",
+    "pageCount": 128,
+    "publishDate": "2011-01-06T00:00:00.000Z",
+    "readDateStart": "2026-01-18T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-01-19T00:00:00.000Z"
+  },
+  {
+    "id": "146",
+    "title": "Schattenfroh",
+    "author": "Michael Lentz",
+    "pageCount": 1000,
+    "publishDate": "2025-01-01T00:00:00.000Z",
+    "readDateStart": "2026-01-21T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "147",
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "pageCount": 336,
+    "publishDate": "1999-08-12T00:00:00.000Z",
+    "readDateStart": "2026-02-09T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-02-18T00:00:00.000Z"
+  },
+  {
+    "id": "148",
+    "title": "Nadezhda in the Dark",
+    "author": "Yelena Moskovich",
+    "pageCount": 182,
+    "publishDate": "2023-09-14T00:00:00.000Z",
+    "readDateStart": "2026-03-03T00:00:00.000Z",
+    "tags": [
+      "Bangers"
+    ],
+    "readDateFinish": "2026-03-05T00:00:00.000Z"
+  },
+  {
+    "id": "149",
+    "title": "The Gulf War Did Not Take Place",
+    "author": "Jean Baudrillard",
+    "pageCount": 96,
+    "publishDate": "1995-10-22T00:00:00.000Z",
+    "readDateStart": "2026-03-06T00:00:00.000Z",
+    "tags": [
+      "Postmodern",
+      "Non-Fiction"
+    ],
+    "readDateFinish": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "id": "150",
+    "title": "Brainwyrms",
+    "author": "Alison Rumfitt",
+    "pageCount": 236,
+    "publishDate": "2023-10-05T00:00:00.000Z",
+    "readDateStart": "2026-03-08T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-03-13T00:00:00.000Z"
+  },
+  {
+    "id": "151",
+    "title": "Ain't I a Woman",
+    "author": "Bell Hooks",
+    "pageCount": 205,
+    "publishDate": "1999-07-01T00:00:00.000Z",
+    "readDateStart": "2026-03-13T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-03-18T00:00:00.000Z"
+  },
+  {
+    "id": "152",
+    "title": "Bleeding Edge",
+    "author": "Thomas Pynchon",
+    "pageCount": 477,
+    "publishDate": "2013-09-17T00:00:00.000Z",
+    "readDateStart": "2026-03-19T00:00:00.000Z",
+    "tags": [
+      "Postmodern"
+    ],
+    "readDateFinish": "2026-04-05T00:00:00.000Z"
+  },
+  {
+    "id": "153",
+    "title": "Exocapitalism",
+    "author": "Marek Poliks,Roberto Alonso Trillo",
+    "pageCount": 218,
+    "publishDate": "2025-08-01T00:00:00.000Z",
+    "readDateStart": "2026-03-19T00:00:00.000Z",
+    "tags": [
+      "Non-Fiction",
+      "Bangers"
+    ],
+    "readDateFinish": "2026-04-11T00:00:00.000Z"
+  },
+  {
+    "id": "154",
+    "title": "No Country for Old Men",
+    "author": "Cormac McCarthy",
+    "pageCount": 309,
+    "publishDate": "2005-07-01T00:00:00.000Z",
+    "readDateStart": "2026-04-08T00:00:00.000Z",
+    "tags": [],
+    "readDateFinish": "2026-04-14T00:00:00.000Z"
+  }
+]
