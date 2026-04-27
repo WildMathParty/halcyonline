@@ -115,7 +115,7 @@
   <ul>
     {#each candidates as candidate}
       <li>
-        <button type="button" onclick={() => fetchWeather(candidate)}>
+        <button type="button" onclick={() => fetchWeather(candidate)} class="hover:underline cursor-pointer">
           {candidate.name}{candidate.admin1 ? `, ${candidate.admin1}` : ''}, {candidate.country_code}
         </button>
       </li>

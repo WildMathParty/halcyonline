@@ -2,6 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "curriculum vitae";
+const tags = ["C#/.NET", "Typescript", "Angular", "Astro", "MongoDB", "PostgreSQL", "Redis", "Xamarin/MAUI", "ElasticSearch", "Java", "Claude"];
+
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -34,5 +36,9 @@ const pageTitle = "curriculum vitae";
 	</ul>
 	<hr class="mt-5 mb-5"/>
 	<h2>skills</h2>
-	<p>C#/.NET, Typescript, Angular, Azure, MongoDB, PostgreSQL, Redis, Xamarin, MAUI, ElasticSearch, Java, Claude, Astro</p>
+	<div class="flex flex-wrap">
+		{tags.map((tag) => (
+	      <p class="border border-[var(--accent-2)] border-solid rounded-lg m-[0.25em] px-[0.5em] py-[1em]">{tag}</p>
+	    ))}
+	</div>
 </BaseLayout>

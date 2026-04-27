@@ -5,31 +5,63 @@ const pageTitle = "egoising";
 
 const musics = ["shteppi", "machineplus", "femtanyl", "deathbrain", "pet shimmers", "living hour"];
 const authors = ["gilles deleuze", "thomas pynchon", "alison rumfitt", "yelena moskovich", "hiroko oyamada", "judith butler"];
-const things = ["baseball", "poststructuralism", "wikipedia", "cinnamon", "jerma", "craft cocktails"];
+const things = ["baseball", "poststructuralism", "being cozy on rainy days", "cinnamon", "wikipedia", "craft cocktails"];
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<style is:global>
 		.listItem {
-			color: var(--accent-2);
+		    margin: 0.25em;
+		    border: solid 1px var(--accent-2);
+		    border-radius: .5em;
+		    padding: .5em 1em;
+		    background-color: var(--bg);
+		}
+
+		.list {
+		    display: flex;
+		    flex-wrap: wrap;
+		}
+
+		h3 {
+    		font-size: 1.15em;
 		}
 	</style>
-	<p>what is a halcyon line? (a row of kingfishers)<br/> why is halcy online? (to host personal projects)<br/> and more answers to questions you might find yourself asking:</p>
-	<ul class="ml-5 mt-3">
-		<li>halcy's from new zealand, she's currently in japan, she's moving to canada</li>
-		<li>she wants to write something. she reads too much to not at least try</li>
-		<li>she used to make music in a band. she plays the drums</li>
-	</ul>
-	<p><br/>music that's good:</p>
-	<ul>
+
+	<p>what is a halcyon line? (a row of kingfishers)<br/>
+	    &nbsp;&nbsp;&nbsp;why is halcy online? (to host personal projects)<br/><br/>
+
+		hi, i'm halcy. i'm from new zealand; travelling japan; moving to canada.<br/>
+		is it possible to get to know someone through unidirectional text posts? typically, one might try to list things they like,
+		as if a person is just the assemblage of media they consume. i will do that anyway, below.<br/>
+		i also want to try to give an impression, here, of what i'm like in person.<br/><br/>
+
+		i am really analytical. every book i read, every show i watch, every nice cocktail, beer, or coffee i drink, i analyse.
+		some people find that strange and prefer to enjoy the affect of experience, but i get a lot of enjoyment from really scrutinising
+		how things work and what effect they have. it's probably why i read a lot of philosophy and beefy literature novels. also might
+		be why i like programming. <br/>
+		i have a real drive to make art and be creative. in the past i've played drums in a band, developed games, mixed cocktails, and
+		at the moment i'm trying to write a book. <br/>
+		i think i'm funny? at the very least, i often try to make people laugh. it's just a subtle, nice way to bring joy to people, socially. <br/>
+		i have quite strong philosophical opinions, which informs my morals and worldview. i've also learnt most people really don't like
+		talking about philosophy, so i tend to keep that on the downlow. <br/> <br/>
+
+		i write in all lowercase on the more personal sections of this website as an inside joke.
+
+	</p>
+
+	<h3><br/>music that's good:</h3>
+	<ul class="list">
 	  {musics.map((music) => <li class="listItem">{music}</li>)}
 	</ul>
-	<p><br/>authors who're good:</p>
-	<ul>
+
+	<h3><br/>authors who're good:</h3>
+	<ul class="list">
 	  {authors.map((author) => <li class="listItem">{author}</li>)}
 	</ul>
-	<p><br/>other assorted things that're good:</p>
-	<ul>
+
+	<h3><br/>other assorted things that're good:</h3>
+	<ul class="list">
 	  {things.map((thing) => <li class="listItem">{thing}</li>)}
 	</ul>
 </BaseLayout>
