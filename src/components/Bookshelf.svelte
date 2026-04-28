@@ -40,15 +40,20 @@
     const height = 220 + (hash % 100);
 
     // Use theme colors for a perfectly cohesive palette
-    const themeColors = ['var(--accent)', 'var(--accent-2)', 'var(--muted)', 'var(--fg)'];
+    const themeColors = [
+      "var(--accent)",
+      "var(--accent-2)",
+      "var(--muted)",
+      "var(--fg)",
+    ];
     const baseColor = themeColors[hash % themeColors.length];
-    
+
     // Mix the base color with the background to create varying shades
     const mixPercent = 20 + (hash % 60); // 20% to 80% base color
     const color = `color-mix(in srgb, ${baseColor} ${mixPercent}%, var(--bg))`;
 
     // Use background color for text on heavily mixed books, and foreground color for lightly mixed ones
-    const textColor = mixPercent > 50 ? 'var(--bg)' : 'var(--fg)';
+    const textColor = mixPercent > 50 ? "var(--bg)" : "var(--fg)";
 
     // Let spines stretch width and height just a little, to make sure long titles fit
     return `
@@ -114,6 +119,14 @@
       return author.substring(0, author.indexOf(",")) + ", et al.";
     }
     return author;
+  }
+
+  async function fetchCover(isbn: string) {
+    const response = await fetch(
+      `https://bookcover.longitood.com/bookcover?isbn=${isbn}&image_size=medium`,
+    );
+    const data = await response.json();
+    return data.url; // Returns the image URL
   }
 
   // Modal State
@@ -215,11 +228,18 @@
             /background-color: ([^;]+);/,
           )?.[1] || '#e2e8f0'}"
         >
-          {#if selectedBook.data.coverUrl}
-            <img
-              src={selectedBook.data.coverUrl}
-              alt="Cover of {selectedBook.data.title}"
-            />
+          {#if selectedBook.data.isbn}
+            {#await fetchCover(selectedBook.data.isbn)}
+              <div class="placeholder-text">{selectedBook.data.title}</div>
+            {:then coverUrl}
+              {#if coverUrl != null}
+                <img src={coverUrl} alt="" />
+              {:else}
+                <div class="placeholder-text">bleb</div>
+              {/if}
+            {:catch e}
+              <div class="placeholder-text">${e}</div>
+            {/await}
           {:else}
             <div class="placeholder-text">{selectedBook.data.title}</div>
           {/if}
