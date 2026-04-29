@@ -27,10 +27,10 @@
     return Math.abs(hash);
   }
 
-  function getBookStyle(book: any) {
+  function getBookStyle(book: any): { style: string; color: string } {
     const hash = hashString(book.id + book.data.title);
 
-    // Thickness based on page count (min 30px, max 80px roughly)
+    // Thickness based on page count (min 40px, max 100px)
     const thickness = Math.max(
       40,
       Math.min(100, (book.data.pageCount || 300) / 8),
@@ -55,15 +55,17 @@
     // Use background color for text on heavily mixed books, and foreground color for lightly mixed ones
     const textColor = mixPercent > 50 ? "var(--bg)" : "var(--fg)";
 
-    // Let spines stretch width and height just a little, to make sure long titles fit
-    return `
-      min-width: ${thickness}px;
-      max-width: ${thickness + 20}px;
-      min-height: ${height}px;
-      max-height: ${height + 20}px;
-      background-color: ${color};
-      color: ${textColor};
-    `;
+    return {
+      color,
+      style: `
+        min-width: ${thickness}px;
+        max-width: ${thickness + 20}px;
+        min-height: ${height}px;
+        max-height: ${height + 20}px;
+        background-color: ${color};
+        color: ${textColor};
+      `,
+    };
   }
 
   // Reactive sorted and filtered books
@@ -121,12 +123,19 @@
     return author;
   }
 
-  async function fetchCover(isbn: string) {
-    const response = await fetch(
-      `https://bookcover.longitood.com/bookcover?isbn=${isbn}&image_size=medium`,
-    );
-    const data = await response.json();
-    return data.url; // Returns the image URL
+  // Cache covers so re-opening the same book skips the network call
+  const coverCache = new Map<string, Promise<string | null>>();
+
+  function fetchCover(isbn: string): Promise<string | null> {
+    if (coverCache.has(isbn)) return coverCache.get(isbn)!;
+    const promise = fetch(
+      `https://bookcover.longitood.com/bookcover?isbn=${isbn}&image_size=large`,
+    )
+      .then((r) => r.json())
+      .then((data) => data.url as string | null)
+      .catch(() => null);
+    coverCache.set(isbn, promise);
+    return promise;
   }
 
   // Modal State
@@ -193,7 +202,7 @@
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         <div
           class="book-spine"
-          style={getBookStyle(book)}
+          style={getBookStyle(book).style}
           on:click={() => openBook(book)}
         >
           <div class="spine-content">
@@ -224,21 +233,20 @@
       <div class="book-details">
         <div
           class="book-cover-placeholder"
-          style="background-color: {getBookStyle(selectedBook).match(
-            /background-color: ([^;]+);/,
-          )?.[1] || '#e2e8f0'}"
+          style="--cover-bg: {getBookStyle(selectedBook).color}"
         >
           {#if selectedBook.data.isbn}
-            {#await fetchCover(selectedBook.data.isbn)}
-              <div class="placeholder-text">{selectedBook.data.title}</div>
-            {:then coverUrl}
-              {#if coverUrl != null}
-                <img src={coverUrl} alt="" />
+            {#await fetchCover(selectedBook.data.isbn) then coverUrl}
+              {#if coverUrl}
+                <img
+                  src={coverUrl}
+                  alt="Cover of {selectedBook.data.title}"
+                  style="opacity: 0; transition: opacity 0.3s ease;"
+                  on:load={(e) => ((e.currentTarget as HTMLImageElement).style.opacity = "1")}
+                />
               {:else}
-                <div class="placeholder-text">bleb</div>
+                <div class="placeholder-text">{selectedBook.data.title}</div>
               {/if}
-            {:catch e}
-              <div class="placeholder-text">${e}</div>
             {/await}
           {:else}
             <div class="placeholder-text">{selectedBook.data.title}</div>
@@ -514,6 +522,7 @@
     color: rgba(255, 255, 255, 0.8);
     overflow: hidden;
     flex-shrink: 0;
+    background-color: var(--cover-bg, var(--muted));
   }
 
   .book-cover-placeholder img {
